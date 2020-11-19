@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530D0D0C25622266006279FF /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530D0D0B25622266006279FF /* FlightData.swift */; };
+		530D0D1125622344006279FF /* FlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530D0D1025622344006279FF /* FlightCell.swift */; };
+		5320D5C725621FEF00466538 /* CollectionView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5320D5C625621FEF00466538 /* CollectionView+Delegate.swift */; };
+		5320D5CA2562200100466538 /* CollectionView+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5320D5C92562200100466538 /* CollectionView+DataSource.swift */; };
+		5330C8DB2564AA7400EE169B /* FromDestinationField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330C8DA2564AA7400EE169B /* FromDestinationField.swift */; };
+		5330C8DF2564AAF600EE169B /* ToDestinationField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330C8DE2564AAF600EE169B /* ToDestinationField.swift */; };
+		5330C8E22564AC5700EE169B /* Book+Now+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330C8E12564AC5700EE169B /* Book+Now+Button.swift */; };
+		53B106F025631FEC002EAA79 /* DurationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B106EF25631FEC002EAA79 /* DurationLabel.swift */; };
+		53CBFC982561BB210064118E /* Plane+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBFC972561BB210064118E /* Plane+Button.swift */; };
+		53CBFC9E2561BC910064118E /* Background+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBFC9D2561BC910064118E /* Background+View.swift */; };
 		53D6C0BC2561B9A3000C4CF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D6C0BB2561B9A3000C4CF3 /* AppDelegate.swift */; };
 		53D6C0BE2561B9A3000C4CF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D6C0BD2561B9A3000C4CF3 /* SceneDelegate.swift */; };
-		53D6C0C02561B9A3000C4CF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D6C0BF2561B9A3000C4CF3 /* ViewController.swift */; };
-		53D6C0C32561B9A3000C4CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D6C0C12561B9A3000C4CF3 /* Main.storyboard */; };
+		53D6C0C02561B9A3000C4CF3 /* TravelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D6C0BF2561B9A3000C4CF3 /* TravelScreen.swift */; };
 		53D6C0C52561B9A4000C4CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D6C0C42561B9A4000C4CF3 /* Assets.xcassets */; };
 		53D6C0C82561B9A4000C4CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D6C0C62561B9A4000C4CF3 /* LaunchScreen.storyboard */; };
+		53D9B1C32561C07700746257 /* Card+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D9B1C22561C07700746257 /* Card+View.swift */; };
+		53E4661D2564367500892EB2 /* BookLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E4661C2564367500892EB2 /* BookLabel.swift */; };
+		53E466212564386D00892EB2 /* Book+Now+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E466202564386D00892EB2 /* Book+Now+View.swift */; };
+		53F586812562B4B0006371FF /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F586802562B4B0006371FF /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		530D0D0B25622266006279FF /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		530D0D1025622344006279FF /* FlightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCell.swift; sourceTree = "<group>"; };
+		5320D5C625621FEF00466538 /* CollectionView+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionView+Delegate.swift"; sourceTree = "<group>"; };
+		5320D5C92562200100466538 /* CollectionView+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionView+DataSource.swift"; sourceTree = "<group>"; };
+		5330C8DA2564AA7400EE169B /* FromDestinationField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromDestinationField.swift; sourceTree = "<group>"; };
+		5330C8DE2564AAF600EE169B /* ToDestinationField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDestinationField.swift; sourceTree = "<group>"; };
+		5330C8E12564AC5700EE169B /* Book+Now+Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+Now+Button.swift"; sourceTree = "<group>"; };
+		53B106EF25631FEC002EAA79 /* DurationLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationLabel.swift; sourceTree = "<group>"; };
+		53CBFC972561BB210064118E /* Plane+Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plane+Button.swift"; sourceTree = "<group>"; };
+		53CBFC9D2561BC910064118E /* Background+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Background+View.swift"; sourceTree = "<group>"; };
 		53D6C0B82561B9A3000C4CF3 /* TravelUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D6C0BB2561B9A3000C4CF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53D6C0BD2561B9A3000C4CF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		53D6C0BF2561B9A3000C4CF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		53D6C0C22561B9A3000C4CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53D6C0BF2561B9A3000C4CF3 /* TravelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelScreen.swift; sourceTree = "<group>"; };
 		53D6C0C42561B9A4000C4CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53D6C0C72561B9A4000C4CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53D6C0C92561B9A4000C4CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D9B1C22561C07700746257 /* Card+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+View.swift"; sourceTree = "<group>"; };
+		53E4661C2564367500892EB2 /* BookLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookLabel.swift; sourceTree = "<group>"; };
+		53E466202564386D00892EB2 /* Book+Now+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+Now+View.swift"; sourceTree = "<group>"; };
+		53F586802562B4B0006371FF /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +63,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		530D0D0A25622257006279FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				530D0D0B25622266006279FF /* FlightData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		530D0D0F2562232C006279FF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				530D0D1025622344006279FF /* FlightCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5320D5C525621FD200466538 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5320D5C625621FEF00466538 /* CollectionView+Delegate.swift */,
+				5320D5C92562200100466538 /* CollectionView+DataSource.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5330C8D72564A93C00EE169B /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5330C8E12564AC5700EE169B /* Book+Now+Button.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		5330C8D92564AA1500EE169B /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				5330C8DA2564AA7400EE169B /* FromDestinationField.swift */,
+				5330C8DE2564AAF600EE169B /* ToDestinationField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		53CBFC932561BAEB0064118E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				53D6C0BF2561B9A3000C4CF3 /* TravelScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		53CBFC942561BAF70064118E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				53D28EA02564166D00E3E9D4 /* Bottom View */,
+				53D28E9F2564166400E3E9D4 /* Mid View */,
+				53CBFC9B2561BC450064118E /* Top View */,
+				53CBFC952561BAFD0064118E /* Buttons */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		53CBFC952561BAFD0064118E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				53CBFC962561BB070064118E /* Plane Buttons */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		53CBFC962561BB070064118E /* Plane Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				53CBFC972561BB210064118E /* Plane+Button.swift */,
+			);
+			path = "Plane Buttons";
+			sourceTree = "<group>";
+		};
+		53CBFC9B2561BC450064118E /* Top View */ = {
+			isa = PBXGroup;
+			children = (
+				53F5867C2562B476006371FF /* Cell Components */,
+				53D9B1C12561C02D00746257 /* Card View */,
+				53CBFC9C2561BC4C0064118E /* Background View */,
+			);
+			path = "Top View";
+			sourceTree = "<group>";
+		};
+		53CBFC9C2561BC4C0064118E /* Background View */ = {
+			isa = PBXGroup;
+			children = (
+				53CBFC9D2561BC910064118E /* Background+View.swift */,
+			);
+			path = "Background View";
+			sourceTree = "<group>";
+		};
+		53D28E9F2564166400E3E9D4 /* Mid View */ = {
+			isa = PBXGroup;
+			children = (
+				5330C8D92564AA1500EE169B /* TextField */,
+				5330C8D72564A93C00EE169B /* Buttons */,
+				53E4661F2564384A00892EB2 /* Views */,
+				53E4661B2564365700892EB2 /* Mid Labels */,
+			);
+			path = "Mid View";
+			sourceTree = "<group>";
+		};
+		53D28EA02564166D00E3E9D4 /* Bottom View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bottom View";
+			sourceTree = "<group>";
+		};
 		53D6C0AF2561B9A3000C4CF3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +195,75 @@
 		53D6C0BA2561B9A3000C4CF3 /* TravelUI */ = {
 			isa = PBXGroup;
 			children = (
-				53D6C0BB2561B9A3000C4CF3 /* AppDelegate.swift */,
-				53D6C0BD2561B9A3000C4CF3 /* SceneDelegate.swift */,
-				53D6C0BF2561B9A3000C4CF3 /* ViewController.swift */,
-				53D6C0C12561B9A3000C4CF3 /* Main.storyboard */,
+				530D0D0F2562232C006279FF /* Cell */,
+				530D0D0A25622257006279FF /* Model */,
+				5320D5C525621FD200466538 /* Extensions */,
+				53CBFC942561BAF70064118E /* Components */,
+				53CBFC932561BAEB0064118E /* Screens */,
+				53D6C0F32561BA32000C4CF3 /* App+SceneDelegate */,
 				53D6C0C42561B9A4000C4CF3 /* Assets.xcassets */,
 				53D6C0C62561B9A4000C4CF3 /* LaunchScreen.storyboard */,
 				53D6C0C92561B9A4000C4CF3 /* Info.plist */,
 			);
 			path = TravelUI;
+			sourceTree = "<group>";
+		};
+		53D6C0F32561BA32000C4CF3 /* App+SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				53D6C0BB2561B9A3000C4CF3 /* AppDelegate.swift */,
+				53D6C0BD2561B9A3000C4CF3 /* SceneDelegate.swift */,
+			);
+			path = "App+SceneDelegate";
+			sourceTree = "<group>";
+		};
+		53D9B1C12561C02D00746257 /* Card View */ = {
+			isa = PBXGroup;
+			children = (
+				53D9B1C22561C07700746257 /* Card+View.swift */,
+			);
+			path = "Card View";
+			sourceTree = "<group>";
+		};
+		53E4661B2564365700892EB2 /* Mid Labels */ = {
+			isa = PBXGroup;
+			children = (
+				53E4661C2564367500892EB2 /* BookLabel.swift */,
+			);
+			path = "Mid Labels";
+			sourceTree = "<group>";
+		};
+		53E4661F2564384A00892EB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53E466202564386D00892EB2 /* Book+Now+View.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53F5867C2562B476006371FF /* Cell Components */ = {
+			isa = PBXGroup;
+			children = (
+				53F5867F2562B48F006371FF /* Cell Label */,
+				53F5867D2562B47F006371FF /* Cell View */,
+			);
+			path = "Cell Components";
+			sourceTree = "<group>";
+		};
+		53F5867D2562B47F006371FF /* Cell View */ = {
+			isa = PBXGroup;
+			children = (
+				53F586802562B4B0006371FF /* CellView.swift */,
+			);
+			path = "Cell View";
+			sourceTree = "<group>";
+		};
+		53F5867F2562B48F006371FF /* Cell Label */ = {
+			isa = PBXGroup;
+			children = (
+				53B106EF25631FEC002EAA79 /* DurationLabel.swift */,
+			);
+			path = "Cell Label";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +325,6 @@
 			files = (
 				53D6C0C82561B9A4000C4CF3 /* LaunchScreen.storyboard in Resources */,
 				53D6C0C52561B9A4000C4CF3 /* Assets.xcassets in Resources */,
-				53D6C0C32561B9A3000C4CF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +335,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D6C0C02561B9A3000C4CF3 /* ViewController.swift in Sources */,
+				53E466212564386D00892EB2 /* Book+Now+View.swift in Sources */,
+				53F586812562B4B0006371FF /* CellView.swift in Sources */,
+				53E4661D2564367500892EB2 /* BookLabel.swift in Sources */,
+				5330C8DB2564AA7400EE169B /* FromDestinationField.swift in Sources */,
+				53D9B1C32561C07700746257 /* Card+View.swift in Sources */,
+				53CBFC9E2561BC910064118E /* Background+View.swift in Sources */,
+				53CBFC982561BB210064118E /* Plane+Button.swift in Sources */,
+				53D6C0C02561B9A3000C4CF3 /* TravelScreen.swift in Sources */,
+				530D0D0C25622266006279FF /* FlightData.swift in Sources */,
+				5320D5C725621FEF00466538 /* CollectionView+Delegate.swift in Sources */,
 				53D6C0BC2561B9A3000C4CF3 /* AppDelegate.swift in Sources */,
 				53D6C0BE2561B9A3000C4CF3 /* SceneDelegate.swift in Sources */,
+				5330C8DF2564AAF600EE169B /* ToDestinationField.swift in Sources */,
+				5320D5CA2562200100466538 /* CollectionView+DataSource.swift in Sources */,
+				530D0D1125622344006279FF /* FlightCell.swift in Sources */,
+				5330C8E22564AC5700EE169B /* Book+Now+Button.swift in Sources */,
+				53B106F025631FEC002EAA79 /* DurationLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		53D6C0C12561B9A3000C4CF3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53D6C0C22561B9A3000C4CF3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		53D6C0C62561B9A4000C4CF3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.francis.christian.TravelUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.francis.christian.TravelUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
